@@ -1,0 +1,66 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>Home - W&amp;M I</title>
+<!-- TemplateEndEditable -->
+<link href="../styles/main.css" rel="stylesheet" type="text/css">
+<link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
+<link rel="icon" href="../favicon.ico" type="image/x-icon">
+<!-- TemplateBeginEditable name="head" -->
+<!-- TemplateEndEditable -->
+</head>
+
+<body>
+<div id="wrapper">
+  <header id="logohead"> <img src="../images/logo.png" alt="W&M Debate Society"/>
+<nav id= "mainmenu">
+      <ul>
+        <li><a id="firstbutton" href="index.html">Home</a>
+          <ul id="submenu">
+            <li><a href="../index.html">Debate Home</a></li>
+          </ul>
+        </li>
+        <li><a href="about.html">About W&amp;M I</a>
+          <ul id="submenu">
+            <li><a href="directors.html">Meet the Directors</a></li>
+            <li><a href="results.html">Past Tournament Results</a></li>
+            <li><a href="pairings.html">Pairings</a></li>
+          </ul>
+        </li>
+        <li><a href="directions.html">Directions</a></li>
+        <li><a href="registration.html">Registration</a></li>
+        <li><a href ="schedule.html">Schedule</a></li>
+        <li><a id="lastbutton" href="contact.html">Contact Us</a></li>
+      </ul>
+    </nav>
+  </header>
+  <div id="content">
+  <!-- TemplateBeginEditable name="content" -->
+<!-- TemplateEndEditable -->
+    <div class="linebreak"></div>
+  </div>
+  <footer>
+    <nav id ="footmenu">
+      <ul>
+        <li id="firstfoot"><a href="index.html">Home</a></li>
+        <li><a href="about.html">About W&amp;M I</a></li>
+        <li><a href="directions.html">Directions</a></li>
+        <li><a href="registration.html">Registration</a></li>
+        <li><a href ="schedule.html">Schedule</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+      </ul>
+    </nav>
+    <div id="social">
+      <ul>
+        <li><a href="http://facebook.com/debatewm"><img src="../images/facebook.png" onmouseover="this.src='../images/facebook_selected.png'" onmouseout="this.src='../images/facebook.png'" alt="Facebook"/></a></li>
+        <li><a href="http://twitter.com/wmdebate"><img src="../images/twitter.png" onmouseover="this.src='../images/twitter_selected.png'" onmouseout="this.src='../images/twitter.png'" alt="Twitter"/></a></li>
+        <li><a href="mailto:debateteam.wm@gmail.com"><img src="../images/gmail.png" onmouseover="this.src='../images/gmail_selected.png'" onmouseout="this.src='../images/gmail.png'" alt="Email"/></a></li>
+      </ul>
+    </div>
+    <div id="copyright">&copy; 2014 W&M Debate Society</div>
+  </footer>
+</div>
+</body>
+</html>
