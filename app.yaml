@@ -1,0 +1,22 @@
+runtime: python27
+api_version: 1
+threadsafe: true
+
+libraries:
+- name: webapp2
+  version: latest
+- name: jinja2
+  version: latest
+
+automatic_scaling:
+  max_idle_instances: 2
+
+handlers:
+- url: /
+  static_files: www/index.html
+  upload: www/index.html
+
+- url: /(.*)
+  static_files: www/\1
+  upload: www/(.*)
+
