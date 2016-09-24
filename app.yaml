@@ -12,9 +12,12 @@ automatic_scaling:
   max_idle_instances: 2
 
 handlers:
+#TODO: reconcile these
 - url: /
-  static_files: www/index.html
-  upload: www/index.html
+  script: main.app
+
+- url: /index.html
+  script: main.app
 
 - url: /(.*)
   static_files: www/\1

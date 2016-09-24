@@ -1,0 +1,44 @@
+{% extends "layout/base.html" %}
+
+{% block head %}
+<script src="js/jquery.min.js"></script>
+<script src="js/jquery.bxslider.min.js"></script>
+<link href="styles/jquery.bxslider.css" rel="stylesheet" />
+{% endblock %}
+
+{% block content %}
+<div id="fb-root"></div>
+  <script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&appId=176959045735241&version=v2.0";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+  <ul class ="slider">
+    <li> <img src="images/team_slider.png" alt=""/></li>
+    <li> <img src="images/disrael_slider.png" alt=""/></li>
+    <li> <img src="images/wren_slider.jpg" alt=""/></li>
+  </ul>
+  <script type="text/javascript">
+$(document).ready(function(){
+  $('.slider').bxSlider({
+  mode:'fade',
+  slideWidth:990,
+  auto:true,
+  pause:6000,
+  speed:1000
+  });
+});
+</script>
+  <div id="main">
+    <h3>Registration for the Winter Classic now open!</h3>
+    <p>Registration for William and Mary's second annual high school tournament has opened! This year we will be hosting Public Forum, Lincoln-Douglas, and Policy debaters for a one-day tournament on January 31st. For more information and to register your school, head to our <a href="hstournament/index.html">tournament page</a>.</p>
+    <div  class="fb-like" data-href="https://facebook.com/debatewm" data-width="440" data-layout="standard" data-action="like" data-show-faces="true" data-share="true"></div>
+  </div>
+  <div id ="sidebar"><a class="twitter-timeline" href="https://twitter.com/wmdebate" data-widget-id="539211395448193025">Tweets by @wmdebate</a> 
+    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script> 
+  </div>
+    <div class="linebreak"></div>
+  {% endblock %}
+
