@@ -1,0 +1,33 @@
+{% extends "layout/base.html" %}
+
+{% block head %}{{ super() }}{% endblock %}
+{% block title %}{{ super() }}{% endblock %}
+{% block menu %}{{ super() }}{% endblock %}
+
+{% block content %}
+  <h3 id="pagetitle">Tournaments</h3>
+<p> In addition to competing at tournaments across the nation, William &amp; Mary hosts two college-level APDA tournaments and one high school tournament each year. The Debate team also directs a high school bootcamp for high school debaters each fall. Information on each of these tournaments is available here</p>
+
+<div id ="panel">
+  <div id="images"><a href="wm1/index.html"><img src="images/wm1herothumb.png"/></a></div>
+  <div id="writeup"><h3 id="h3_about"><a href="wm1/index.html">W&amp;M I</a></h3><p>William &amp; Mary I is the fall APDA tournament hosted by the debate team. The 2014 tournament (Wild, Wild Williamsburg) occured on the weekend of September 12th-13th. More than 40 debate teams were in attendance, with Hopkins triumphing over Syracuse in the final round on a 7-2 decision.</p>
+  </div>
+</div>
+<div id="panel">
+  <div id="images"><a href="wm2/index.html"><img src="images/wm2herothumb.png"/></a></div>
+  <div id="writeup"><h3 id="h3_about"><a href="wm2/index.html">W&amp;M II</a></h3><p>William &amp; Mary II is the spring APDA tournament hosted by the debate team. The 2015 tournament's details will be announced shortly, stay tuned!</p>
+  </div>
+</div>
+<div id="panel">
+  <div id="images"><a href="hstournament/index.html"><img src="images/hstournamentherothumb.png"/></a></div>
+  <div id="writeup"><h3 id="h3_about"><a href="hstournament/index.html">High School Tournament</a></h3><p>Each winter William &amp; Mary hosts a tournament for high school Public Forum, Lincoln Douglas, and Policy high school debaters. The second annual Winter Classic will take place on January 31st.</p>
+  </div>
+</div>
+<div id="panel">
+  <div id="images"><a href="hsbootcamp/index.html"><img src="images/hsbootcampherothumb.png"/></a></div>
+  <div id="writeup"><h3 id="h3_about"><a href="hsbootcamp/index.html">High School Botcamp</a></h3><p>Every fall the debate team hosts a bootcamp for high school public forum and Lincoln Douglas debaters. This is a great opportunity for new debaters to learn the format of different debate styles as well as for more experienced students to hone their skills and learn from the debaters at William &amp; Mary, including several former VHSL state champions. The 2014 bootcamp was held on November 1st.</p>
+  </div>
+</div>
+{% endblock %}
+
+{% block footmenu %}{{ super() }}{% endblock %}

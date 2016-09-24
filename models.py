@@ -20,7 +20,12 @@ class Tournament(ndb.Model):
 
 class Post(ndb.Model):
 	# TODO: Think about how to structure this more
-	content = ndb.StringProperty
+	content = ndb.StringProperty()
+
+class Page(ndb.Model):
+	#TODO: Think about how to structure these. Auto-created, undeletable?
+	name = ndb.StringProperty()
+	content = ndb.StringProperty()
 
 class SliderImage(ndb.Model):
 	image = ndb.BlobProperty()
